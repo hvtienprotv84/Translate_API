@@ -6,8 +6,8 @@
 
 *   HTML 
 *   CSS
-*   JavaScript 
+*   JavaScript
+*   Responsive Website và Mobile
 *   [Font Awesome](https://fontawesome.com)
 *   Free Translate API on this project: https://mymemory.translated.net/doc/spec.php
 *   SpeechSynthesisUtterance : https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance
-*   Responsive Website và Mobile
