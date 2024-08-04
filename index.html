@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Google_Translate_logo.svg/768px-Google_Translate_logo.svg.png" type="image/x-icon">
+    <script src="languages.js" defer></script>
+    <script src="app.js" defer></script>
+    <title>Huỳnh Vĩnh Tiến - Translate API</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="text-input">
+                <textarea class="from-text" placeholder="Nhập từ bạn muốn dịch, vd: Hello"></textarea>
+                <textarea class="to-text" placeholder="xin chào!" readonly disabled ></textarea>
+            </div>
+            <ul class="controls">
+                <li class="row from">
+                    <div class="icons">
+                        <i id="from" class="fa-solid fa-volume-high"></i>
+                        <i id="from" class="fa-solid fa-copy"></i>
+                    </div>
+                    <select id="in_dam_ngonngu">
+                        <option value="en-US">English</option>
+                        <option value="tr-TR">Turkish</option>
+                        <option value="ne-NP">Nepali</option>
+                    </select>
+                </li>
+                <li class="exchange">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </li>
+                <li class="row to">
+                    <select id="in_dam_ngonngu">
+                        <option value="ne-NP">Nepali</option>
+                        <option value="en-US">English</option>
+                        <option value="tr-TR">Turkish</option>
+                    </select>
+                    <div class="icons">
+                        <i id="to" class="fa-solid fa-volume-high"></i>
+                        <i id="to" class="fa-solid fa-copy"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <button id="translate-button">Dịch Ngay</button>
+    </div>
+
+    <div class="title">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Google_Translate_logo.svg/768px-Google_Translate_logo.svg.png"/>
+        <p>Translate API - Dịch Ngôn Ngữ API</p>
+    </div>
+
+    <p id="copyright">&copy; Mọi Bản Quyền Thuộc về Huỳnh Vĩnh Tiến</p>
+
+</body>
+</html>
