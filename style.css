@@ -138,3 +138,46 @@ button {
     color: white;
     font-size: 24px;
 }
+
+@media only screen and (max-width: 600px) {
+    #copyright{
+        font-size: 18px;
+    }
+    .title img{
+        width: 30px;
+    }
+    .title p{
+        color: white;
+        font-weight: bold;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .container {
+        width: 25em;
+        height: 28em;
+    }
+    ::placeholder{
+        font-size: 24px;
+    }
+    #in_dam_ngonngu{
+        font-size: 12px;
+    }
+    .icons{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        margin-top: 140px;
+        margin-left: -10px;
+    }
+    #from{
+        font-size: 30px;
+
+    }
+    #to{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    #translate-button{
+        margin-top: 80px;
+    }
+  }
